@@ -19,8 +19,9 @@ import {
   getCurrentQuestion,
   submitCandidateAnswer,
   completeScreeningSession,
-} from "@/lib/api";
-import { Question, AnswerEvaluation } from "@/types";
+} from "../../lib/api";
+import { Question, AnswerEvaluation } from "../../types";
+
 
 interface TranscriptItem {
   question: Question;

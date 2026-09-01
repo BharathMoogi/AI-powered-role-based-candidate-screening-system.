@@ -14,8 +14,9 @@ import {
   Code2,
   Cpu,
 } from "lucide-react";
-import { uploadCandidateResume, startScreeningSession } from "@/lib/api";
-import { CandidateProfile } from "@/types";
+import { uploadCandidateResume, startScreeningSession } from "../lib/api";
+import { CandidateProfile } from "../types";
+
 
 const POPULAR_ROLES = [
   "Machine Learning Engineer",

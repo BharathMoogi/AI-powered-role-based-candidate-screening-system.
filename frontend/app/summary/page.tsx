@@ -17,8 +17,9 @@ import {
   Layers,
   Lightbulb,
 } from "lucide-react";
-import { getSessionSummary } from "@/lib/api";
-import { SessionSummary } from "@/types";
+import { getSessionSummary } from "../../lib/api";
+import { SessionSummary } from "../../types";
+
 
 function SummaryContent() {
   const router = useRouter();
